@@ -1,0 +1,23 @@
+---
+  php:
+    version: 7.3
+    upload_max_filesize: 20M
+    memory_limit: 256M
+    max_execution_time: 360
+    date_timezone: Europe/Moscow
+
+  php_packages:
+    - "php{{ php.version }}"
+    - "php{{ php.version }}-common"
+    - "php{{ php.version }}-mbstring"
+    - "php{{ php.version }}-xmlrpc"
+    - "php{{ php.version }}-soap"
+    - "php{{ php.version }}-gd"
+    - "php{{ php.version }}-xml"
+    - "php{{ php.version }}-intl"
+    - "php{{ php.version }}-mysql"
+    - "php{{ php.version }}-cli"
+    - "php{{ php.version }}-zip"
+    - "php{{ php.version }}-curl"
+    - "php{{ php.version }}-bcmath"
+    - "php{{ php.version }}-imagick"
